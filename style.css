@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgba(152, 198, 255, 0.459);
+    background: linear-gradient(rgba(152, 198, 255, 0.459), rgba(0, 53, 133, 0.6) );
     font-family: sans-serif;
 }
 
@@ -18,10 +18,52 @@ body {
 }
 
 .autobiografia {
-    padding: 2rem;
+    padding: 1rem;
     font-size: 20px;
     font-weight: normal;
     text-align: justify;
+}
+
+.btn-mensagem {
+    padding: 1rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(0, 53, 133);
+    transition: ease-in-out 0.3s;
+}
+
+.btn-mensagem:hover {
+    color: black;
+    background-color: rgba(80, 141, 255, 0.562);
+}
+
+.mensagem-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin: 2rem;
+}
+
+.mensagemClick {
+    font-size: 16px;
+    padding: 1rem;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0.5rem;
+    background-color: rgba(80, 141, 255, 0.162);
+    width: 100vw;
+}
+
+.esconder {
+    display: none;
 }
 
 .hobbys {
@@ -59,14 +101,14 @@ table {
 caption {
     font-size: 24px;
     font-weight: bold;
-    border: solid;
     padding: 0.5rem;
-    border-width: 0px 0px 3px 0px;
-    border-color: rgba(80, 141, 255, 0.562);
     border-radius: 3px;
 }
 
 th {
+    border: solid;
+    border-width: 3px 0px 0px 0px;
+    border-color: rgba(80, 141, 255, 0.562);
     background-color: rgba(80, 141, 255, 0.162);
     padding: 1rem;
 }
