@@ -123,28 +123,3 @@ a:hover {
     padding: 0.5rem;
     background-color: rgb(4, 37, 99);
 }
-
-@media (max-width: 586px) {
-    .hobbys {
-        gap: 2rem;
-    }
-    .lista {
-        font-size: 15px;
-        font-weight: bold;
-    }
-    .imagem-hobby {
-        width: 150px;
-        height: 150px;
-    }
-}
-
-@media (max-width: 440px) {
-    td {
-        height: 200px;
-    }
-    .tabela-img {
-        width: 200px;
-        height: 200px;
-        margin: 5px 0px 0px 5px;
-    }
-}
